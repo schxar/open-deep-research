@@ -38,7 +38,7 @@ import { generateTitleFromUserMessage } from '../../actions';
 import FirecrawlApp from '@mendable/firecrawl-js';
 import { openai } from '@ai-sdk/openai';
 
-export const maxDuration = 60;
+export const maxDuration = 10;
 
 type AllowedTools =
   | 'requestSuggestions'
